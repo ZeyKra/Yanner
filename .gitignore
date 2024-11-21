@@ -1,0 +1,13 @@
+/target
+# Docker specific files
+/docker-compose.yml
+/Dockerfile
+
+# Rust specific files
+/target
+**/*.rs.bk
+**/*.rs.swp
+**/*.rs.swo
+**/*.rs.swn
+
+.env
